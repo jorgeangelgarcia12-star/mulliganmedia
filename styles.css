@@ -214,3 +214,7 @@ video {
   object-fit: cover;
   object-position: center;
 }
+h1 {
+    font-size: 3em; /* Adjust for desired text size */
+  text-align: center; /* Centers the text horizontally */
+}
