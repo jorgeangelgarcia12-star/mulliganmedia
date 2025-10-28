@@ -11,6 +11,7 @@ body {
   color: var(--main-text-color);
   background-color: var(--main-background-color);
   /* add fonts */
+  overflow: hidden;
 }
 
 label[for=navexpander] {
@@ -88,7 +89,7 @@ header#pageheader nav a:hover {
     position: relative;
     z-index: 50;
     font-size: 2rem;
-    display: block;
+    display: none;
   }
 
   #navexpander:checked + nav {
