@@ -73,7 +73,7 @@ header#pageheader nav a:hover {
 
 @media screen and (max-width: 800px) {
   header#pageheader nav {
-    position: absolute;
+    position: fixed;
     inset: 0;
     z-index: 20;
     flex-direction: column;
@@ -91,7 +91,7 @@ header#pageheader nav a:hover {
     position: relative;
     z-index: 50;
     font-size: 2rem;
-    display: none;
+    display: block;
   }
 
   #navexpander:checked + nav {
