@@ -86,7 +86,7 @@ header#pageheader nav a:hover {
   }
 
   label[for=navexpander] {
-    position: relative;
+   
     z-index: 50;
     font-size: 2rem;
     display: block;
