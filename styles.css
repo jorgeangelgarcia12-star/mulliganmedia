@@ -11,7 +11,6 @@ body {
   color: var(--main-text-color);
   background-color: var(--main-background-color);
   /* add fonts */
-  overflow: hidden;
 }
 
 label[for=navexpander] {
@@ -71,7 +70,7 @@ header#pageheader nav a:hover {
 
 @media screen and (max-width: 800px) {
   header#pageheader nav {
-    position: relative;
+    position: absolute;
     inset: 0;
     z-index: 20;
     flex-direction: column;
