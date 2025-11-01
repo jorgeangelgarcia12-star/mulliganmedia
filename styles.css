@@ -249,3 +249,29 @@ h3 {
   object-position: center;
    border-radius: 10px;
 }
+.dark-section {
+  background-color: #221e21;
+  color: #ffffff;
+   margin: 0 calc(-1 * var(--page-padding));
+  border-radius: 0;
+  padding: 1px var(--page-padding);
+  text-align: center;
+}
+
+.dark-section .headline2 {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.dark-section #darksectionpic {
+    height: calc(100vh - var(--page-padding) - var(--page-padding) - var(--page-padding) - var(--header-height));
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--standard-radius);
+  border-top-right-radius: 0;
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+   border-radius: 10px;
+}
